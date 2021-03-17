@@ -1,0 +1,70 @@
+body {
+  background-color: #292F36;
+  padding: 20px 30px;
+  font-family: sans-serif;
+}
+
+.walk-add-form {
+  box-sizing: border-box;
+  font-size: 16px;
+  color: #292F36;
+  background-color: #F5F5F5;
+  display: flex;
+  flex-direction: row;
+  width: 650px;
+  padding: 20px 30px;
+  justify-content: space-between;
+}
+
+input {
+  width: 120px;
+  height: 27px;
+  margin-left: 6px;
+}
+
+.walk-add-button {
+  width: 120px;
+  height: 30px;
+  border: 0;
+  background-color: #4ECDC4;
+  font-size: 16px;
+  font-weight: 400;
+  color: #F5F5F5;
+}
+
+.walk-add-button:hover {
+  background-color: #FE5F55;
+  cursor: pointer;
+}
+
+.walks-list {
+  background-color: #F5F5F5;
+  display: flex;
+  width: 650px;
+  box-sizing: border-box;
+  flex-direction: column;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.walk-item {
+  font-size: 16px;
+  color: #292F36;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2px 30px;
+}
+
+.walk-item-remove {
+  width: 30px;
+  height: 30px;
+  background-color: #FE5F55;
+  color: #F5F5F5;
+  border: 0;
+}
+
+.walk-item-remove:hover {
+  background-color: #4ECDC4;
+  cursor: pointer;
+}
